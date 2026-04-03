@@ -1,0 +1,26 @@
+{
+  "name": "acquisitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvn14/acquisitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rvn14/acquisitions/issues"
+  },
+  "homepage": "https://github.com/rvn14/acquisitions#readme",
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1"
+  }
+}
