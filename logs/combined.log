@@ -1,0 +1,4 @@
+{"level":"info","message":"Received a request to the root endpoint","service":"acquisition-api","timestamp":"2026-04-03T15:24:43.347Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:15:24:43 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-04-03T15:24:43.354Z"}
+{"level":"info","message":"Received a request to the root endpoint","service":"acquisition-api","timestamp":"2026-04-03T15:24:45.138Z"}
+{"level":"info","message":"::1 - - [03/Apr/2026:15:24:45 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisition-api","timestamp":"2026-04-03T15:24:45.139Z"}
