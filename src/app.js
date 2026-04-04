@@ -5,6 +5,8 @@ import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import authRoutes from '#routes/auth.routes.js';
+import { securityMiddleware } from '#middleware/security.middleware.js';
+import userRoutes from '#routes/users.routes.js';
 
 const app = express();
 
@@ -20,6 +22,7 @@ app.use(morgan('combined', {
   },
 }));
 
+app.use(securityMiddleware);
 app.get('/', (req, res) => {
   logger.info('Received a request to the root endpoint');
   res.status(200).json({ message: 'Hello, World!' });
@@ -36,5 +39,6 @@ app.get('/api', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
 
 export default app;
